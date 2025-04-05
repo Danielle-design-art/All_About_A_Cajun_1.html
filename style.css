@@ -1,11 +1,9 @@
 <head>
 
-nav>ul {
-    padding-left: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: 0 auto;
-    list-style: none;
+nav {
+
+}
+
+h2 {
+    text-decoration-color: blanchedalmond;
 }

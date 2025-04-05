@@ -1,9 +1,91 @@
 <index.html>
   <!DOCTYPE html>
   <html lang="en">
-    
+    <head>
+      <link rel="stylesheet" href="style.css"/>
+    <title>All_About_A_Cajun_1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      html{
+      * {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(247, 237, 226);
+  background-color: rgb(20, 49, 9) ;
+  padding: 40px;
+ border: 20px solid rgb(10, 36, 99);
+ margin: 20px auto;
+ 
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav {
+  text-align: center;
+  font-size: 25px;
+ background-color:rgb(236, 164, 0);
+ width: 1600px;
+ border: 20px solid rgb(233, 138, 21);
+ padding: 20px;
+ margin: 0 auto;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:rgb(10, 36, 99);
+  font-size: 18px;
+  color: rgb(247, 237, 226);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+      
+html{
         background: rgb(247, 237, 226);
   animation: mymove 15s infinite;
 }
@@ -13,45 +95,39 @@
   to {background-color: rgb(242, 132, 130);}
 }
 
-html{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+  text-align: center;
 }
 
     </style>
-    
-    <head>
-      <link rel="stylesheet" href="style.css"/>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>All_About_A_Cajun_1</title>
     </head>
    
-    <body> 
-        <nav>
-          <ul style="background-color: rgb(246, 189, 96)">
-      <a href="index.html">Home|
-      <a href="hobbies.html">Hobbies|
-      <a href="contact.html">Contact|
+    
+     <nav>
+      <a href="index.html">Home</a>|
+      <a href="hobbies.html">Hobbies</a>|
+      <a href="contact.html">Contact</a>
     </nav>
-    <div id="headline-name-me"></div>  
-    <h1 style="">
-        Danielle "Dee" Morvant
-      </h1>
-      
+     
+    <h1><header>
+        Danielle "Dee" Morvant</header></h1>
+        <body> 
+      <article>
       <h2>
         <p style="">
           My name is Danielle Morvant (friends and family call me Dee) and I am
-          a New Iberia Louisiana native. I am expecting my firstborn at age 39,
-          I do not have any other children since my only other pregnancy
-          resulted in a miscarriage. I have lots of nieces and nephews, whom
-          call me 'Dee Dee.' I have always been very proud as an aunt of the
-          things they accomplished and the young adults they've become. I have 3
-          siblings...all being brothers. I love all things outdoors...four
-          wheelers, planting things, and especially love our rainy Louisiana
-          Nights. I also love to cook as much as I love food. My oldest brother inspired me at a young age to
-          draw and I love it still today.
-        </p>
-        
+          a New Iberia Louisiana native. I love spending time with family and 
+          friends and consider myself a homebody. I am expecting my firstborn 
+          with a man I thank God for everyday.  We have a 10 year old chihuahua,
+          a 2 year old grey tabby cat, and multiple nano fish aquariums complete 
+          with aqua scapes. My peace and joy comes with tending to my plants and 
+          whatever arts and crafts I currently have going on. I love being outside, 
+          tending to landscape details and looking after my plants. One of my favorite
+          parts of living in South Louisiana is sitting and enjoying the sound of
+          rain. Campfires and crawfish boils are also on the top of my list as well.
+           </p></article>
+
+        <section>
         <ul style="">
           <span style="font-size: 100px">&#128010;</span
           ><span style="font-size: 100px">&#129424;</span
@@ -69,8 +145,9 @@ html{
           <li>Family Bible</li>
           <li>Guns</li>
           <li>Louisiana</li>
-        </ul>
-       
+        </ul><br></section>
+
+       <section>
         <ol style="">
           <span style="font-size: 100px">&#127907;</span
           ><span style="font-size: 100px">&#127918;</span
@@ -86,16 +163,15 @@ html{
           <li>Sewing</li>
           <li>Drawing</li>
           <li>Gaming</li>
-        </ol> </h2>
-       
-        <h1 style="background-color: ">
+        </ol></section>
+        
+        <footer>
+        <h1 style="">
           Danielle Morvant Github link>>>
           <a href="https://github.com/Danielle-design-art";"Danielle Morvant github link">HERE</a><<<<br>
           &#169;Danielle-design-art_2025
         </h1>
-        <footer>
-
-        </footer>
+         </footer>
       </body>
   </html>
 </index.html>

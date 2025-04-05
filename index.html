@@ -17,12 +17,15 @@ body{
 
 /* Style the header */
 header {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   text-align: center;
   font-size: 35px;
   color: rgb(247, 237, 226);
-  background-color: rgb(20, 49, 9) ;
+  background-color:rgb(20, 49, 9) ;
   padding: 40px;
- border: 20px solid rgb(10, 36, 99);
+ border: 20px solid rgb(234, 53, 70);
  margin: 20px auto;
  
 }
@@ -33,13 +36,8 @@ section {
   display: flex;
 }
 
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
 /* Style the navigation menu */
-nav {
+ul {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -48,15 +46,55 @@ nav {
 }
 
 /* Style the list inside the menu */
-nav {
+ul {
   text-align: center;
   font-size: 25px;
+  list-style: inside;
+ background-color:rgb(233, 138, 21);
+ width: 1600px;
+ border: 20px solid rgb(10, 36, 99);
+ padding: 20px;
+ margin: 0 auto;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+ol {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+ol {
+  text-align: center;
+  font-size: 25px;
+  list-style-type: lower-roman;
+  list-style-position: inside;
  background-color:rgb(236, 164, 0);
  width: 1600px;
  border: 20px solid rgb(233, 138, 21);
  padding: 20px;
  margin: 0 auto;
 }
+
+/* Style the list inside the menu */
+nav {
+  text-align: center;
+  font-size: 25px;
+ background-color:rgb(234, 53, 70);
+ width: 1600px;
+ border: 20px solid rgb(233, 138, 21);
+ padding: 20px;
+ margin: 0 auto;
+}
+
 
 /* Style the content */
 article {
@@ -66,12 +104,13 @@ article {
   background-color:rgb(10, 36, 99);
   font-size: 18px;
   color: rgb(247, 237, 226);
+  border: 20px solid rgb(20, 49, 9);
   padding: 10px;
 }
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: rgb(20,49,9);
   padding: 10px;
   text-align: center;
   color: white;

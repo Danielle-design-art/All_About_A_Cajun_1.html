@@ -1,2 +1,134 @@
-<head>
-!
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+
+  /* Style the header */
+  header {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(202, 255, 191) ;
+    padding: 40px;
+   border: 20px solid rgb(255, 173, 173);
+   margin: 20px auto;
+   
+  }
+
+
+  /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+ 
+  /* Style the navigation menu */
+  ul {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgb(253, 255, 182);
+    padding: 20px;
+  }
+
+
+  /* Style the list inside the menu */
+ul {
+    text-align: center;
+    font-size: 25px;
+    list-style: inside;
+   background-color:rgb(160, 196, 255);
+   width: 1600px;
+   border: 20px solid rgb(189, 178, 255);
+   padding: 20px;
+   margin: 0 auto;
+  }
+
+  
+  /* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  ol {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  ol {
+    text-align: center;
+    font-size: 25px;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+   background-color:rgb(255, 198, 255);
+   width: 1600px;
+   border: 20px solid rgb(253, 255, 182);
+   padding: 20px;
+   margin: 0 auto;
+  }
+  
+  /* Style the list inside the menu */
+  nav {
+    text-align: center;
+    font-size: 25px;
+   background-color:rgb(255, 173, 173);
+   width: 1600px;
+   border: 20px solid rgb(255, 214, 165);
+   padding: 20px;
+   margin: 0 auto;
+  }
+  
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color:rgb(160, 196, 255);
+    font-size: 18px;
+    color: rgb(5, 5, 5);
+    border: 20px solid rgb(255, 198, 255);
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: rgb(155, 246, 255);
+    padding: 10px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+  }
+
+
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+        
+  html{
+          background: rgb(255, 255, 252);
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: rgb(155, 246, 255);}
+    to {background-color: rgb(189, 178, 255);}
+  }
+  
+  h1 {
+    text-align: center;
+  }

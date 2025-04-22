@@ -1,0 +1,32 @@
+html{
+    background: rgba(255, 255, 255, 0.89);
+animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+from {background-color: rgb(155, 246, 255);}
+to {background-color: rgb(189, 178, 255);}
+}
+
+html{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+list-style-position: inside
+}
+
+/* Style the list inside the menu */
+nav {
+text-align: center;
+font-size: 25px;
+background-color:rgb(255, 173, 173);
+width: 1600px;
+border: 20px solid rgb(255, 214, 165);
+padding: 20px;
+margin: 0 auto;
+}
+
+body {
+text-align: center;
+}
